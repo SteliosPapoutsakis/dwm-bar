@@ -23,7 +23,7 @@ export SEP2="]"
 
 # Import the modules
 #. "$DIR/bar-functions/dwm_alarm.sh"
-#. "$DIR/bar-functions/dwm_alsa.sh"
+. "$DIR/bar-functions/dwm_alsa.sh"
 #. "$DIR/bar-functions/dwm_backlight.sh"
 . "$DIR/bar-functions/dwm_battery.sh"
 #. "$DIR/bar-functions/dwm_ccurse.sh"
@@ -63,7 +63,7 @@ do
     upperbar=""
 	upperbar="$upperbar$(dwm_internet)"
     #upperbar="$upperbar$(dwm_alarm)"
-    #upperbar="$upperbar$(dwm_alsa)"
+    upperbar="$upperbar$(dwm_alsa)"
     #upperbar="$upperbar$(dwm_backlight)"
     upperbar="$upperbar$(dwm_battery)"
     #upperbar="$upperbar$(dwm_ccurse)"
