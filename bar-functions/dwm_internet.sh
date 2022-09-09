@@ -8,6 +8,8 @@ dwm_internet () {
 	if [ $? -eq 0 ]; then
 		WIFI='NET UP'
 	fi
+
+	printf "$SEP1%s$SEP2" "$WIFI"
 }
 
 dwm_internet
